@@ -6,7 +6,7 @@ insightsApp.config(function($routeProvider) {
 
   $routeProvider.
       when('/', {
-        controller: 'LiveController',
+        controller: 'Controller',
         templateUrl: 'views/home.html'
       })
 
