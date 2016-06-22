@@ -1,0 +1,31 @@
+*.class
+*.log
+
+# sbt specific
+.cache
+.history
+.lib/
+dist/*
+target/
+
+# IntelliJIdea specific
+.idea
+*.iml
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# Other
+########
+build
+.gradle

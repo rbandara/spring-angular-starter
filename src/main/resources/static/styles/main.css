@@ -1,0 +1,15 @@
+html {
+    font-family: 'Open Sans' sans-serif;
+}
+
+body {
+    font-family: 'Open Sans' sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #eee;
+}
+
+.navbar-header {
+    padding-left: 15px;
+    padding-right: 15px;
+}
