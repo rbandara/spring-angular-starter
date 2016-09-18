@@ -10,7 +10,7 @@ public class MyController {
     @Autowired
     private MyService myService;
 
-    @RequestMapping(value = "/data")
+    @RequestMapping(value = "/data", params = "id")
     public Domain getData(Long id) {
         return myService.getData(id);
     }
