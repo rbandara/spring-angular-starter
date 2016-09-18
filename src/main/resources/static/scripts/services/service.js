@@ -1,6 +1,6 @@
 'use strict';
 
-insightsApp.service('service', function insightsService($http) {
+myApp.service('service', function insightsService($http) {
 
         var baseUrl = '/myapp';
 

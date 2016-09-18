@@ -1,6 +1,6 @@
 'use strict';
 
-insightsApp.controller('Controller',
+myApp.controller('Controller',
     function LiveController($scope, service) {
         service.loadData()
             .success(function (data) {

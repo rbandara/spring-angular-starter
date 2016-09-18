@@ -3,13 +3,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.foo</groupId>
-	<artifactId>foo-bar</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<groupId>spring.angular.starter</groupId>
+	<artifactId>angular-starter</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
-
 	<name>foo-bar</name>
-	<description>Skeleton project with Spring boot java</description>
+	<description>Skeleton project with Spring boot java with Angular web page</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -27,10 +26,6 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-actuator</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-mongodb</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

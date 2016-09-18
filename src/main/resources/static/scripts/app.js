@@ -1,8 +1,8 @@
 'use strict';
 
-var insightsApp = angular.module('insightsApp', ['ngRoute']);
+var myApp = angular.module('myApp', ['ngRoute']);
 
-insightsApp.config(function($routeProvider) {
+myApp.config(function($routeProvider) {
 
   $routeProvider.
       when('/', {
